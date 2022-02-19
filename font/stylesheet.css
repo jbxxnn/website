@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-Bold.woff2') format('woff2'),
+        url('AvegasRoyale-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-Bold.woff2') format('woff2'),
+        url('AvegasRoyale-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-Italic.woff2') format('woff2'),
+        url('AvegasRoyale-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-BoldItalic.woff2') format('woff2'),
+        url('AvegasRoyale-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-Italic.woff2') format('woff2'),
+        url('AvegasRoyale-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-BoldItalic.woff2') format('woff2'),
+        url('AvegasRoyale-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-Regular.woff2') format('woff2'),
+        url('AvegasRoyale-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avegas Royale';
+    src: url('AvegasRoyale-Regular.woff2') format('woff2'),
+        url('AvegasRoyale-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial Hair';
+    src: url('FONTSPRINGDEMO-MundialHairRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialHairRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialDemiBoldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialDemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialThinRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialThinRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial Hair';
+    src: url('FONTSPRINGDEMO-MundialHairItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialHairItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialThinItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialLightItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialDemiBoldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialDemiBoldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialBold.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialBlackRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialBlackRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialBoldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Mundial';
+    src: url('FONTSPRINGDEMO-MundialBlackItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-MundialBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Original';
+    src: url('Original-Thin.woff2') format('woff2'),
+        url('Original-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Original';
+    src: url('Original-Black.woff2') format('woff2'),
+        url('Original-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Original';
+    src: url('Original-Bold.woff2') format('woff2'),
+        url('Original-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Original';
+    src: url('Original-Light.woff2') format('woff2'),
+        url('Original-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Original';
+    src: url('Original-Regular.woff2') format('woff2'),
+        url('Original-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
