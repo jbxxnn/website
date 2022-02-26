@@ -7,23 +7,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
 
+    <!-- The cursor elements --> 
+     <!-- <div class="cursor cursor--small"></div> -->
+    <!--<canvas class="cursor cursor--canvas" resize></canvas> -->
+
+<div data-scroll-container>
     <section class="hero">
 
         <div class="hero-main">
             <div id="hero-img">
-                <div class="hero-img-1"></div>
+                <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-cubic"><div class="hero-img-1"></div></div>
             </div>
-            <div id="hero-header">Don't Be Noisy, Be Interesting.</div>
-            <div id="hero-menu"><p>Home</p><p>Service</p><p>Work</p><p>Contact</p></div>
-            <div id="hero-desc">Its busy out there. we are here to find your focus, tune your voice and get you heard.</div>
-            <div id="hero-img-2"><div class="hero-img-2"></div>
+            <div id="hero-header"><div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-cubic">Don't Be Noisy,<span> Be Interesting.</span></div></div>
+            <div id="hero-menu">
+                <p><div data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-cubic">Home</div></p>
+                <p><div data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-cubic">Service</div></p>
+                <p><div data-aos="fade-left" data-aos-duration="2500" data-aos-easing="ease-in-cubic">Work</div></p>
+                <p><div data-aos="fade-left" data-aos-duration="3000" data-aos-easing="ease-in-cubic">Contact</div></p>
+            </div>
+            <div id="hero-desc"><div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-cubic">Its busy out there. we are here to find your focus, tune your voice and get you heard.</div></div>
+            <div id="hero-img-2">
+                <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-cubic"><div class="hero-img-2"></div></div>
         </div>
-            <div id="hero-text-bg"><h1>VINE</h1><p>studio</p></div>
+            <div id="hero-text-bg"><h1><div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-cubic">VINE</div></h1><p>studio</p></div>
             <div id="hero-circle-btn">
                 
                 <div class="text-circle-default intro-text-circle" style="opacity: 1;">
@@ -39,7 +52,7 @@
             </div>
         </div>
 
-        <section class="scrolling-text-top">
+        <!-- <section class="scrolling-text-top">
         <div class="scroll-text text">
             <div>
                  Strong brands are simple, Groundbreaking, rule defying businesses make us tick. &nbsp; <span>Strong brands are simple, Groundbreaking, rule defying businesses make us tick.</span>  &nbsp;
@@ -48,7 +61,7 @@
                 Strong brands are simple, Groundbreaking, rule defying businesses make us tick. &nbsp; <span>Strong brands are simple, Groundbreaking, rule defying businesses make us tick.</span>  &nbsp;
             </div>
             </div>
-        </section>
+        </section> -->
         <section class="scrolling-text-bottom">
             <div class="scroll-text text">
                 <div>
@@ -59,7 +72,7 @@
                 </div>
                 </div>
             </section>
-        <section class="scrolling-text-right">
+        <!-- <section class="scrolling-text-right">
         <div class="scroll-text text2">
             <div>
                 Learn from experience, Transmit them in the present, Shape the future. &nbsp; <span>Learn from experience, Transmit them in the present, Shape the future.</span>  &nbsp;
@@ -78,23 +91,23 @@
                     Learn from experience, Transmit them in the present, Shape the future. &nbsp; <span>Learn from experience, Transmit them in the present, Shape the future.</span>  &nbsp;
                 </div>
                 </div>
-            </section>
+            </section> -->
         
     </section>
     <section class="section-2">
         <div class="main-section-2">
-    <div id="section-a">
+    <div id="section-a"  data-scroll data-scroll-speed="-1" data-scroll-direction="horizontal">
         <h1 class="h1-section-a">Bespoke Website Design
             For Visionary Brands</h1>
         </div>
-    <div id="section-b">
+    <div id="section-b" data-scroll-class="scroll-class" data-scroll-repeat="true" data-scroll data-scroll-speed="2" data-scroll-direction="vertical" class="custom-scroll-class">
     <p class="p-section-b">We do a lot of amazing things at Vine Studio, but behind every outstanding deliverable is a solid process that keeps us true to our overall goal - our clients’ success. The team at Vine Studio is composed of creatives, planners, designers, developers, and tech savvy problem solvers capable of integrating a wide range of services resulting in a marketing engine that drives results.</p>
     </div>
         </div>
 
 <main class="app">
         
-    <div class="grid g3">
+    <div class="grid g3" data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">
         <a aria-label="link-3" target="_blank" rel="noopener" draggable="false" class="link w-inline-block service-1">
             <h1 class="h1" id="service-1">Custom Branding.</h1>
         </a>
@@ -108,7 +121,7 @@
             <img src="images/arrow-svgrepo-com.svg" alt="slash" class="image" />
         </div>
     </div>
-    <div class="grid g3">
+    <div class="grid g3" data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal">
         <a aria-label="link-3" target="_blank" rel="noopener" draggable="false" class="link w-inline-block service-3">
             <h1 class="h1" id="service-3">Ecommerce Store.</h1>
         </a>
@@ -125,14 +138,14 @@
 </main>
     </section>
     <section class="our-process">
-        <h1 id="because-it-works">Because It Works</h1>
-        <p id="offer-text">We offer a complete branding & web design service over a 10-week timeline that will help you grow your exceptional brand!</p>
+        <h1 id="because-it-works" data-scroll-class="scroll-class" data-scroll-repeat="true" data-scroll data-scroll-speed="2" class="custom-scroll-class">Because It <span> Works</span></h1>
+        <p id="offer-text" data-scroll-class="scroll-class" data-scroll-repeat="true" data-scroll data-scroll-speed="1" class="custom-scroll-class">We offer a complete branding & web design service over a 10-week timeline that will help you grow your exceptional brand!</p>
 <div id="our-process">
         <div id="our-process-process">
             <h1>Our Process.</h1>
             <img src="./images/arrow-svgrepo-com.svg" id="our-process-arrow">
         </div>
-        <div id="discover-process">
+        <div class="proc" id="discover-process">
             <h1>Discover.</h1>
             <img src="./images/arrow-svgrepo-com.svg" id="discover-arrow">
         </div>
@@ -142,7 +155,7 @@
         <div id="big-img-process">
             <div class="big-img-process"></div>
         </div>
-        <div id="discuss-process">
+        <div class="proc" id="discuss-process">
             <h1>Discuss.</h1>
             <img src="./images/arrow-svgrepo-com.svg" id="discuss-arrow">
         </div>
@@ -160,121 +173,111 @@
         </div>
         <div id="chat-process">
             <h1>Want To Find <br>Out More?</h1>
+                <img src="./images/reshot-icon-arrow-turn-2DPLMJGQ34.svg" id="contact-arrow">
             <p>Let's Chat <br> <span>hello@vstudio8.com <br>+234 8034310997</span></p>
         </div>
-        <div id="define-process">
+        <div class="proc" id="define-process">
             <h1>Define.</h1>
             <img src="./images/arrow-svgrepo-com.svg" id="define-arrow">
         </div>
         <div id="deliver-process">
             <h1>Deliver.</h1>
-            <img src="./images/smile.svg" id="define-arrow">
+            <img src="./images/smile-svgrepo-com.svg" id="deliver-smile">
         </div>
     </div>
     </section>
     <section class="work">
         <h1>Work</h1>
         <p class="text-class">You shouldn’t have to settle for branding that doesn’t align with your vision, or a website that doesn’t convert your audience to paying customers. We’ll help you build a strategic and stunning brand so that your business can thrive.</p>
-        <main id="work">
+        <main id="work" data-scroll-repeat="true" data-scroll data-scroll-speed="4">
             <div id="work-one">
                 <div id="work-1">
                 <h1 class="work-one-text-h1">Damsel In Dior.</h1>
-                <p class="work-one-text-p">If my goal from a visual perspective was to highlight the content, functionally, my focus was on creating an organic shopping experience. Users can shop whenever, and wherever they’re inspired to, throughout the site.</p>
-            </div>
-            <div class="work-one">
-                    <div id="deliverables">
-                        <p class="work-one-text-deliverables-p">Deliverables</p>
-                        <span class="work-one-text-deliverables-span">Ecommerce, Brand Identity.</span>
-                    </div>
-                    <div id="deliver-date">
-                        <p class="work-one-text-deliverables-p2">Date</p>
-                        <span class="work-one-text-deliverables-span2">August 2020.</span>
-                    </div>
-                </div>
+                <span class="work-title-gradient gradient-one hide-scroll-text"></span>
+                <section class="scrolling-text-work damsel-in-dior hide-scroll-text">
+                    <div class="scroll-text-work text-work">
+                        <div>
+                             DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;
+                        </div>
+                        <div>
+                            DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;
+                        </div>
+                        </div>
+                    </section>
+              </div>
                 </div>
             <div id="work-two">
                 <div id="work-2">
-                <h1>SOS Foods.</h1>
-                <p>A food startup by two caring young founders. their goal is to reshape fair trade by contributing a substantial part of each sale to social projects in the products’ source regions. i spent three months shaping this minimalistic web project in close collaboration with them and i’m so happy with the result.</p>            
-                </div>
-            <div class="work-two">
-                    <div id="deliverables">
-                        <p>Deliverables</p>
-                        <span>Ecommerce, Brand Identity.</span>
-                    </div>
-                    <div id="deliver-date">
-                        <p>Date</p>
-                        <span>August 2020.</span>
-                    </div>
+                <h1 class="work-two-text-h1">SOS Foods.</h1>
+                <span class="work-title-gradient gradient-two hide-scroll-text"></span>
+                <section class="scrolling-text-work sos-food hide-scroll-text">
+                    <div class="scroll-text-work text-work">
+                        <div>
+                             SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp; SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp; SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp; SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp;
+                        </div>
+                        <div>
+                            SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp; SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp; SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp; SOS FOODS. &nbsp; <span>SOS FOODS.</span>  &nbsp;
+                        </div>
+                        </div>
+                    </section>
                 </div>
             </div>
             <div id="work-three">
                 <div id="work-3">
                 <h1 class="work-three-text-h1">Case Furniture.</h1>
+                <span class="work-title-gradient gradient-three hide-scroll-text"></span>
+                <section class="scrolling-text-work case-furniture hide-scroll-text">
+                    <div class="scroll-text-work text-work">
+                        <div>
+                             CASE FURNITURES. &nbsp; <span>CASE FURNITURES.</span>  &nbsp; CASE FURNITURES. &nbsp; <span>CASE FURNITURES.</span>  &nbsp; CASE FURNITURES. &nbsp; <span>CASE FURNITURES.</span>  &nbsp;
+                        </div>
+                        <div>
+                            CASE FURNITURES. &nbsp; <span>CASE FURNITURES.</span>  &nbsp; CASE FURNITURES. &nbsp; <span>CASE FURNITURES.</span>  &nbsp; CASE FURNITURES. &nbsp; <span>CASE FURNITURES.</span>  &nbsp;
+                        </div>
+                        </div>
+                    </section>
                 </div>
-            <div class="work-three">
-                    <div id="deliverables">
-                        <p class="work-three-text-deliverables-p">Deliverables</p>
-                        <span class="work-three-text-deliverables-span">Ecommerce, Brand Identity.</span>
-                    </div>
-                    <div id="deliver-date">
-                        <p class="work-three-text-deliverables-p2">Date</p>
-                        <span class="work-three-text-deliverables-span2">August 2020.</span>
-                    </div>
-            </div>
             </div>
             <div id="work-four">
                 <div id="work-4">
                 <h1 class="work-four-text-h1">Dry Farm Wines.</h1>
+                <span class="work-title-gradient gradient-four hide-scroll-text"></span>
+                <section class="scrolling-text-work dry-farm-wines hide-scroll-text">
+                    <div class="scroll-text-work text-work">
+                        <div>
+                             DRY FARM WINES. &nbsp; <span>DRY FARM WINES.</span>  &nbsp; DRY FARM WINES. &nbsp; <span>DRY FARM WINES.</span>  &nbsp; DRY FARM WINES. &nbsp; <span>DRY FARM WINES.</span>  &nbsp;
+                        </div>
+                        <div>
+                            DRY FARM WINES. &nbsp; <span>DRY FARM WINES.</span>  &nbsp; DRY FARM WINES. &nbsp; <span>DRY FARM WINES.</span>  &nbsp; DRY FARM WINES. &nbsp; <span>DRY FARM WINES.</span>  &nbsp;
+                        </div>
+                        </div>
+                    </section>
                 </div>
-            <div class="work-four">
-                    <div id="deliverables">
-                        <p class="work-four-text-deliverables-p">Deliverables</p>
-                        <span class="work-four-text-deliverables-span">Ecommerce, Brand Identity.</span>
-                    </div>
-                    <div id="deliver-date">
-                        <p class="work-four-text-deliverables-p2">Date</p>
-                        <span class="work-four-text-deliverables-span2">August 2020.</span>
-                    </div>
-            </div>
             </div>
             <div id="work-five">
                 <div id="work-5">
                 <h1 class="work-five-text-h1">Reserve Bar.</h1>
+                <span class="work-title-gradient gradient-five hide-scroll-text"></span>
+                <section class="scrolling-text-work reserve-bar hide-scroll-text">
+                    <div class="scroll-text-work text-work">
+                        <div>
+                             RESERVE BAR. &nbsp; <span>RESERVE BAR.</span>  &nbsp; RESERVE BAR. &nbsp; <span>RESERVE BAR.</span>  &nbsp; RESERVE BAR. &nbsp; <span>RESERVE BAR.</span>  &nbsp;
+                        </div>
+                        <div>
+                            RESERVE BAR. &nbsp; <span>RESERVE BAR.</span>  &nbsp; RESERVE BAR. &nbsp; <span>RESERVE BAR.</span>  &nbsp; RESERVE BAR. &nbsp; <span>RESERVE BAR.</span>  &nbsp;
+                        </div>
+                        </div>
+                    </section>
                 </div>
-            <div class="work-four">
-                    <div id="deliverables">
-                        <p class="work-five-text-deliverables-p">Deliverables</p>
-                        <span class="work-five-text-deliverables-span">Ecommerce, Brand Identity.</span>
-                    </div>
-                    <div id="deliver-date">
-                        <p class="work-five-text-deliverables-p2">Date</p>
-                        <span class="work-five-text-deliverables-span2">August 2020.</span>
-                    </div>
-            </div>
             </div>
         </main>
 
-        <section class="scrolling-text-work damsel-in-dior hide-scroll-text">
-            <div class="scroll-text-work text-work">
-                <div>
-                     DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;
-                </div>
-                <div>
-                    DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;
-                </div>
-                </div>
-            </section>
-            <section class="scrolling-text-work-one damsel-in-dior2 hide-scroll-text">
-                <div class="scroll-text-work-one text-work-one">
-                    <div>
-                        DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;
-                    </div>
-                    <div>
-                        DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;  DAMSEL IN DIOR. &nbsp; <span>DAMSEL IN DIOR.</span>  &nbsp;
-                    </div>
-                    </div>
-                </section>
+     
+
+               
+                   
+                       
+<!--             
          <section class="scrolling-text-work sos-food hide-scroll-text">
             <div class="scroll-text-work text-work">
                 <div>
@@ -369,8 +372,8 @@
                         </text>
                     </svg>
                 </div>
-                <h1>Lets Work Together.</h1><br/>
-                <p>If you are on a mission to reshape the world, we'll be in your corner.</p>
+                <h1 data-scroll-class="scroll-class" data-scroll-repeat="true" data-scroll data-scroll-speed="1" class="custom-scroll-class">Lets Work Together.</h1><br/>
+                <p data-scroll-class="scroll-class" data-scroll-repeat="true" data-scroll data-scroll-speed="1" class="custom-scroll-class">If you are on a mission to reshape the world, we'll be in your corner.</p>
             </div>
             <div id="customer-review-1">
                 <div class="review-img-1"></div>
@@ -404,12 +407,23 @@
             </div>
         </main>
     </section>
+</div>
+
     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-  
+    <script>
+        AOS.init();
+      </script>
+   
     <script src="./script.js"></script>
-
+   
+   
 </body>
 </html>
 
